@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d8d2be;
+    font-size: 16px;
+}
+
+header,
+.about-us h2,
+#pets h3,
+#pets .container h4,
+#contact h2,
+#contact h3 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #474439;
+}
+
+.container {
+    border-radius: 0 px;
+    border-color: #c5c1ad;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+header .container,
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header .container {    
+    background-color:#c5c1adbd;
+}
+
+header h1 {
+    font-size: 32px;
+    padding: 0 0 0 30px;    
+}
+
+header li {
+    padding: 0 20px 0 0;
+}
+
+header li a:hover {
+    color: #474439cc;
+}
+
+.about-us img {
+    height: 360px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.about-us .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+    text-align: justify;
+}
+
+#pets .container li img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 370px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#pets .container {
+    padding: 30px;
+}
+
+#pets .container ul {
+    display: flex;
+    align-items: start;
+    justify-content:space-around;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+}
+
+#pets .container h4 {
+    font-size: 22px;
+
+}
+
+#pets li button {
+    cursor: pointer;
+    background-color: #474439;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+#pets li button:hover {
+    background-color: #474439cc;
+}
+
+#pets h3 {
+    padding: 7px 0;
+}
+
+#pets p {
+    padding: 7px 0 13px 0;
+}
+
+#contact .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    text-align: justify;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+    padding: 30px;
+    gap: 20px;
+}
+
+.social-links img{
+    height: 24px;
+    opacity: 0.8;
+}
